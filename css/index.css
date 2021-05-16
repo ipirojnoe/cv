@@ -1,6 +1,11 @@
 * {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  margin: 0;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
 
 .container {
@@ -74,4 +79,76 @@
 
 .desc-timeline {
   font-weight: 600;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.description p {
+  margin-bottom: 5px;
+}
+
+.keywords {
+  margin-bottom: 15px;
+}
+
+.skill {
+  background-color: #3e464e;
+  color: white;
+  border-radius: 5px;;
+  padding: 2px 7px;
+}
+
+.skill-link {
+  color: black;
+}
+
+.skill-link:hover {
+  color: black;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project-title {
+  display: block;
+  font-size: 24px;
+}
+
+.project-link, .project-link:hover {
+  color: black;
+  text-decoration: underline dotted;
+}
+
+.project-site-link {
+  display: block;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.project-site-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.skill-section {
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  margin-bottom: 5px;
+}
+
+.skill-section p {
+  font-weight: 300;
+  margin-bottom: 2px;
 }
