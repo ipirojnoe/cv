@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+.header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  display: flex;
+}
+
 .text-underline {
   text-decoration: underline;
 }
@@ -38,19 +45,44 @@
 }
 
 .image {
-  display: block;
-  width: 50%;
+  display: inline;
+  width: 25%;
   margin: 0px auto;
   border-radius: 50%;
 }
 
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.about img {
+  margin-right: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
 .link {
-  display: inline;
-  margin-left: 5px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.link:hover {
+  color: black;
 }
 
 .icon {
-  width: 30px;
+  font-size: 25px;
+  margin-right: 5px;
 }
 
 .section {
@@ -151,4 +183,9 @@
 .skill-section p {
   font-weight: 300;
   margin-bottom: 2px;
+}
+
+
+.education {
+  margin-bottom: 100px;
 }

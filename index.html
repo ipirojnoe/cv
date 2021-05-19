@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/skeleton.css">
@@ -13,154 +14,155 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="four columns">
-        <img src="images/pic.jpg" alt="Фото" class="image">
-        <h1 class="text-center bold">Демин Илья</h1>
-        <h2 class="text-center medium-text">23 года</h2>
-        <h2 class="text-center bold medium-text">Ruby on Rails Full-stack Developer</h2>
-        <ul class="links text-center">
-          <li class="link">
-            <a href="https://t.me/sirdemin"><img src="images/tg.png" alt="Иконка телеграма" class="icon"></a>
-          </li>
-          <li class="link">
-            <a href="mailto:deminii@yandex.ru"><img src="images/email.png" alt="Иконка почты" class="icon"></a>
-          </li>
-          <li class="link">
-            <a href="tel:+79535271222"><img src="images/tel.png" alt="Иконка почты" class="icon"></a>
-          </li>
-        </ul>
+      <div class="header section">
+        <div class="intro">
+          <h1 class="bold">Демин Илья</h1>
+          <h2 class="bold medium-text">Ruby on Rails разработчик</h2>
+        </div>
+        <div class="contact">
+          <a href="https://github.com/sirdemin" class="link"><i class="fab fa-github icon"></i>@sirdemin</a>
+          <a href="https://t.me/sirdemin" class="link"><i class="fab fa-telegram-plane icon"></i>@sirdemin</a>
+          <a href="mailto:deminii@yandex.ru" class="link"><i class="far fa-envelope icon"></i>deminii@yandex.ru</a>
+          <a href="tel:+79535271222" class="link"><i class="fas fa-phone icon"></i>+7953527122</a>
+        </div>
       </div>
-      <div class="eight columns">
-        <div class="right-column">
-          <div class="section">
-            <h2 class="large-text text-center">Обо мне</h2>
-            <p>Имею опыт работы в IT, отлично представляю, что такое работа в команде, дедлайны и личная ответственность. </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="section">
+        <h2 class="large-text text-center">Обо мне</h2>
+        <div class="about">
+          <img src="images/pic.jpg" alt="Фото" class="image">
+          <p>Имею опыт работы в IT, отлично представляю, что такое работа в команде, дедлайны и личная ответственность.
+          <b>Цель</b>: 
+          позиция Ryby on Rails разработчика, с возможностью развития в сторону full-stack разработки.
+          Английский - B2. 23 года</p>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="large-text text-center">Навыки</h2>
+        <div class="skills-list">
+          <div class="skill-section">
+            <div class="skill-title">Ruby</div>
+            <p>Понимание принципов ООП, следование code style</p>
           </div>
-          <div class="section">
-            <h2 class="large-text text-center">Навыки</h2>
-            <div class="skills-list">
-              <div class="skill-section">
-                <div class="skill-title">Ruby</div>
-                <p>Понимание принципов ООП, следование code style</p>
-              </div>
-              <div class="skill-section">
-                <div class="skill-title">Ruby on Rails</div>
-                <p>Аутентификация пользователя с помощью <span class="text-underline">Devise</span> и его авторизация, используя <span class="text-underline">Pundit</span>. 
-                  Для доступа с учетными данными соц. сетей использование гема <span class="text-underline">OmniAuth</span></p>
-                  <p>Для хранения credentials использую встронную в rails утилиту и гем <span class="text-underline">dot-env</span></p>
-                  <p><span class="text-underline">Carrierwave</span>, <span class="text-underline">Rmagick</span>, <span class="text-underline">fog-aws</span> – 
-                    использую для загрузки, обработки и хранения файлов в проекте</p>
-                  <p>Отправка почты с помощью Mailjet. Локально использованую гем <span class="text-underline">Letter Opener Web</span></p>
-                  <p><span class="text-underline">Webpacker</span> для интеграции Rails со сборщиком ассетов webpack</p>
-              </div>
-              <div class="skill-section">
-                <div class="skill-title">Тестирование</div>
-                <p>Юнит тесты <span class="text-underline">RSpec</span> с использованием гема <span class="text-underline">FactoryBot</span>
-                   и интеграционное <span class="text-underline">Capybara</span></p>
-              </div>
-              <div class="skill-section">
-                <div class="skill-title">Deploy</div>
-                <p>Создание VPS с настройкой <span class="text-underline">Nginx</span> и <span class="text-underline">Phusion Passenger</span>.
-                   Деплой Rails–приложения с помощью <span class="text-underline">Capistrano</span>.</p>
-                <p>На <span class="text-underline">Heroku</span> развертывание приложения, настройка переменных окружения, работа с логами</p>
-              </div>
-              <div class="skill-section">
-                <div class="skill-title">Frontend</div>
-                <p>Отзывчивая вертска на <span class="text-underline">Bootstrap</span></p>
-                <p>С помощью <span class="text-underline">JavaScript</span>/<span class="text-underline">jQuery</span> смогу написать простые функции и интегрировать готовые решения</p>
-              </div>
-              <div class="skill-section">
-                <div class="skill-title">Инструменты</div>
-                <p>Linux (Ubuntu, Centos)</p>
-                <p>VSCode</p>
-                <p><span class="text-underline">Git</span>: стараюсь коммитить так, чтобы их читать, как содержание книги</p>
-              </div>
-              <div class="keywords">
-                <span class="skill">Ruby</span>
-                <span class="skill">Ruby on Rails</span>
-                <span class="skill">RSpec</span>
-                <span class="skill">FactoryBot</span>
-                <span class="skill">Cabybara</span>
-                <span class="skill">Git</span>
-                <span class="skill">Github</span>
-                <span class="skill">SQL</span>
-                <span class="skill">Postgres</span>
-                <span class="skill">HTML</span>
-                <span class="skill">CSS</span>
-                <span class="skill">SCSS</span>
-                <span class="skill">Bootstrap</span>
-                <span class="skill">Google API</span>
-                <span class="skill">ReCaptcha</span>
-                <span class="skill">Yandex API</span>
-                <span class="skill">Devise</span>
-                <span class="skill">OmniAuth</span>
-                <span class="skill">Pandit</span>
-                <span class="skill">Carriewave</span>
-                <span class="skill">RMagic</span>
-                <span class="skill">Resque</span>
-                <span class="skill">AWS S3</span>
-                <span class="skill">Nginx</span>
-                <span class="skill">Capistrano</span>
-                <span class="skill">Heroku</span>
-                <span class="skill">Passenger</span>
-                <span class="skill">RVM</span>
-                <span class="skill">Rbenv</span>
-                <span class="skill">i18n</span>
-                <span class="skill">JavaScript</span>
-                <span class="skill">jQuery</span>
-                <span class="skill">Linux</span>
-                <span class="skill">Ubuntu</span>
-                <span class="skill">Centos</span>
-                <span class="skill">Ajax</span>
-                <span class="skill">Redis</span>
-              </div>
-            </div>
+          <div class="skill-section">
+            <div class="skill-title">Ruby on Rails</div>
+            <p>Аутентификация пользователя с помощью <span class="text-underline">Devise</span> и его авторизация, используя <span class="text-underline">Pundit</span>. 
+              Для доступа с учетными данными соц. сетей использование гема <span class="text-underline">OmniAuth</span></p>
+              <p>Для хранения credentials использую встронную в rails утилиту и гем <span class="text-underline">dot-env</span></p>
+              <p><span class="text-underline">Carrierwave</span>, <span class="text-underline">Rmagick</span>, <span class="text-underline">fog-aws</span> – 
+                использую для загрузки, обработки и хранения файлов в проекте</p>
+              <p>Отправка почты с помощью Mailjet. Локально использованую гем <span class="text-underline">Letter Opener Web</span></p>
+              <p><span class="text-underline">Webpacker</span> для интеграции Rails со сборщиком ассетов webpack</p>
           </div>
-          <div class="section">
-            <h2 class="large-text text-center">Проекты</h2>
-            <div class="projects">
-              <div class="project">
-                <a class="project-link project-title text-center" href="https://github.com/sirdemin/bbq" target="_blank"> <img src="images/bbq.png" alt="Иконка Барбекю"> Приложение Барбекю</a>
-                <a class="project-site-link text-center" href="https://bbq.demin.io" target="_blank">https://bbq.demin.io</a>
-                <p>
-                  Приложение, в которым мы можем организовать мероприятия, подписываться на них, оставлять комментарии,
-                  загружать фотографии и получать уведомления
-                </p>
-              </div>
-              <div class="project">
-                <a class="project-link project-title text-center" href="https://github.com/sirdemin/askme" target="_blank">Приложение AskMe</a>
-                <a class="project-site-link text-center" href="https://askme2021.herokuapp.com/" target="_blank">https://askme2021.herokuapp.com</a>
-                <p>
-                  В данном приложении можно отправилять вопросы пользователям и отвечать на заданные вопросы.
-                </p>
-              </div>
-            </div>
+          <div class="skill-section">
+            <div class="skill-title">Тестирование</div>
+            <p>Юнит тесты <span class="text-underline">RSpec</span> с использованием гема <span class="text-underline">FactoryBot</span>
+                и интеграционное <span class="text-underline">Capybara</span></p>
           </div>
-          <div class="section">
-            <h2 class="large-text text-center">Опыт работы</h2>
-            <div class="description">
-              <h3 class="desc-title medium-text">ГУП РК "КарелКоммунЭнерго"</h3>
-              <p class="desc-position">Системный администратор</p>
-              <p class="desc-timeline small-text">09.2019 - настоящее время</p>
-              <p>Установка, обслуживание серверов и оргтехники. Обеспечение безопасности корпоротивных сетей. Тех. поддерждка пользователей.</p>
-              <p>Установка, поддержка нормальной работы операционных систем и офисных программ</p>
-              <p>Резервное копирование данных.</p>
-            </div>
+          <div class="skill-section">
+            <div class="skill-title">Deploy</div>
+            <p>Создание VPS с настройкой <span class="text-underline">Nginx</span> и <span class="text-underline">Phusion Passenger</span>.
+                Деплой Rails–приложения с помощью <span class="text-underline">Capistrano</span>.</p>
+            <p>На <span class="text-underline">Heroku</span> развертывание приложения, настройка переменных окружения, работа с логами</p>
           </div>
-          <div>
-            <h2 class="large-text text-center">Образование</h2>
-            <div class="description">
-              <a href="https://synergy.ru/" class="desc-title medium-text">Университет Синергия</a>
-              <p class="desc-timeline small-text">05.2021 - настоящее время</p>
-              <p>Факультет информационных технологий</p>
-              <p>Прикладная информатика в экономике</p>
-            </div>
-            <div class="description">
-              <a href="https://goodprogrammer.ru/" class="desc-title medium-text">Интенсив Хорошего Программиста</a>
-              <p class="desc-timeline small-text">09.2020 - 05.2021</p>
-              <p>Изучение языка Ruby и фреймворка Rails. Тестирование и отладка програм.</p>
-            </div>
+          <div class="skill-section">
+            <div class="skill-title">Frontend</div>
+            <p>Отзывчивая вертска на <span class="text-underline">Bootstrap</span></p>
+            <p>С помощью <span class="text-underline">JavaScript</span>/<span class="text-underline">jQuery</span> смогу написать простые функции и интегрировать готовые решения</p>
           </div>
+          <div class="skill-section">
+            <div class="skill-title">Инструменты</div>
+            <p>Linux (Ubuntu, Centos)</p>
+            <p>VSCode</p>
+            <p><span class="text-underline">Git</span>: стараюсь коммитить так, чтобы их читать, как содержание книги</p>
+          </div>
+          <div class="keywords">
+            <span class="skill">Ruby</span>
+            <span class="skill">Ruby on Rails</span>
+            <span class="skill">RSpec</span>
+            <span class="skill">FactoryBot</span>
+            <span class="skill">Cabybara</span>
+            <span class="skill">Git</span>
+            <span class="skill">Github</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Postgres</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">SCSS</span>
+            <span class="skill">Bootstrap</span>
+            <span class="skill">Google API</span>
+            <span class="skill">ReCaptcha</span>
+            <span class="skill">Yandex API</span>
+            <span class="skill">Devise</span>
+            <span class="skill">OmniAuth</span>
+            <span class="skill">Pandit</span>
+            <span class="skill">Carriewave</span>
+            <span class="skill">RMagic</span>
+            <span class="skill">Resque</span>
+            <span class="skill">AWS S3</span>
+            <span class="skill">Nginx</span>
+            <span class="skill">Capistrano</span>
+            <span class="skill">Heroku</span>
+            <span class="skill">Passenger</span>
+            <span class="skill">RVM</span>
+            <span class="skill">Rbenv</span>
+            <span class="skill">i18n</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">jQuery</span>
+            <span class="skill">Linux</span>
+            <span class="skill">Ubuntu</span>
+            <span class="skill">Centos</span>
+            <span class="skill">Ajax</span>
+            <span class="skill">Redis</span>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="large-text text-center">Проекты</h2>
+        <div class="projects">
+          <div class="project">
+            <a class="project-link project-title text-center" href="https://github.com/sirdemin/bbq" target="_blank"> <img src="images/bbq.png" alt="Иконка Барбекю"> Приложение Барбекю</a>
+            <a class="project-site-link text-center" href="https://bbq.demin.io" target="_blank">https://bbq.demin.io</a>
+            <p>
+              Приложение, в которым мы можем организовать мероприятия, подписываться на них, оставлять комментарии,
+              загружать фотографии и получать уведомления
+            </p>
+          </div>
+          <div class="project">
+            <a class="project-link project-title text-center" href="https://github.com/sirdemin/askme" target="_blank">Приложение AskMe</a>
+            <a class="project-site-link text-center" href="https://askme2021.herokuapp.com/" target="_blank">https://askme2021.herokuapp.com</a>
+            <p>
+              В данном приложении можно отправилять вопросы пользователям и отвечать на заданные вопросы.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="large-text text-center">Опыт работы</h2>
+        <div class="description">
+          <h3 class="desc-title medium-text">ГУП РК "КарелКоммунЭнерго"</h3>
+          <p class="desc-position">Системный администратор</p>
+          <p class="desc-timeline small-text">09.2019 - настоящее время</p>
+          <p>Установка, обслуживание серверов и оргтехники. Обеспечение безопасности корпоротивных сетей. Тех. поддерждка пользователей.</p>
+          <p>Установка, поддержка нормальной работы операционных систем и офисных программ</p>
+          <p>Резервное копирование данных.</p>
+        </div>
+      </div>
+      <div class="education">
+        <h2 class="large-text text-center">Образование</h2>
+        <div class="description">
+          <a href="https://synergy.ru/" class="desc-title medium-text">Университет Синергия</a>
+          <p class="desc-timeline small-text">05.2021 - настоящее время</p>
+          <p>Факультет информационных технологий</p>
+          <p>Прикладная информатика в экономике</p>
+        </div>
+        <div class="description">
+          <a href="https://goodprogrammer.ru/" class="desc-title medium-text">Интенсив Хорошего Программиста</a>
+          <p class="desc-timeline small-text">09.2020 - 05.2021</p>
+          <p>Изучение языка Ruby и фреймворка Rails. Тестирование и отладка програм.</p>
         </div>
       </div>
     </div>
