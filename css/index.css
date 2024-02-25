@@ -90,6 +90,10 @@
   margin-bottom: 10px;
 }
 
+.desc-line {
+  border-bottom: 2px dashed #e6e6e6;
+}
+
 .desc-title, .desc-timeline, .desc-position {
   margin-bottom: 5px;
 }
@@ -118,7 +122,11 @@
 }
 
 .description p {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+}
+
+.paragraph {
+  margin-bottom: 15px;
 }
 
 .keywords {
